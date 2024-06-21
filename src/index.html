@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Enlace al archivo de salida de Tailwind CSS -->
     <link href="./output.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-custom-white">
+    <header class="px-32 py-12">
+        <!-- Barra de navegación con clases de Tailwind CSS -->
+        <nav class="h-16  flex justify-between items-center px-6 pb-10">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="#" class="text-slate-800 text-2xl font-bold">Mrs. College Guide</a>
+            </div>
+            <!-- Enlaces de navegación -->
+            <div class="flex space-x-4">
+                <a href="#" class="text-slate-800 hover:text-gray-400">Universities</a>
+                <a href="#" class="text-slate-800 hover:text-gray-400">Courses</a>
+                <a href="#" class="text-slate-800 hover:text-gray-400">Community</a>
+                <a href="#" class="text-slate-800 hover:text-gray-400">News</a>
+                <a href="#" class="text-slate-800 hover:text-gray-400">About</a>
+            </div>
+            <!-- Espacio adicional (puedes eliminar este div si no es necesario) -->
+            <!-- Boton login y sing up -->
+            <div class="space-x-12">
+                <button class="font-semibold">LOGIN</button>
+                <button class="bg-yellow-400 font-semibold h-10 w-28">SING UP</button>
+            </div>
+        </nav>
+        <section class=" relative">
+            <div class="flex justify-center">
+                <img src="https://imgs.search.brave.com/G7ez_ksDz4ZoSBNSbbI59YK-b_yjGZGGnTGUGbsB0ic/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTc1/NjU2MjAzNS9waG90/by91bml2ZXJzaXR5/LWNhbXB1cy5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9WV90/X1Bucng0SEYxR09G/T0ZDZ2J6dHV3QWtG/OEhHWk1Vazc1Nm1T/bks4az0" alt="imagen universidad" class="h-[800px] w-[1484px]">
+                <div class="absolute top-1/4 w-full text-center  space-y-2">
+                    <h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-bold left-4 ">Find Your <span class="bg-yellow-400 px-1 font-semibold" >Future</span> Today!</h1>
+                    <h3 class="text-white text-lg md:text-lg lg:text-2xl">The Ultimate Guide to Universities Worldwide</h3>
+                </div>
+            </div>
+            
+        </section>
+    </header>
 
 </body>
 </html>
