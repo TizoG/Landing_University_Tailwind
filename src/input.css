@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.bg-footer{
+    background-color: #36384E;
+}
+
+.bg-gray-buttom{
+    background-color: #999894;
+}
+
+
